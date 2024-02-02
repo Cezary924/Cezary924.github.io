@@ -15,8 +15,13 @@ p {
   margin-right: auto;
 }
 .column {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  width: 50%;
+  margin: 0 auto;
 }
 @media screen and (max-width: 767px) {
   .column {
