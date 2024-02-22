@@ -8,4 +8,4 @@
 </div><br/>
 
 ## ℹ️ About</h3>
-- This is Cezary924's GitHub.io website which contains information about current and upcoming projects.
+- This is Cezary924's GitHub.io web page which contains information about current and upcoming projects.
