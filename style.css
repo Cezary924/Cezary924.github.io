@@ -4,6 +4,7 @@ body {
 
 p {
   text-align: center;
+  animation: puff-in-center 1.0s ease-in-out 3.0s both;
 }
 
 .image1 {
