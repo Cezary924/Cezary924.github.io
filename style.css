@@ -151,7 +151,20 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  animation: text-flicker-in-glow 3s linear both;
+  animation: puff-in-center 1.5s ease-in-out 0.5s both;
+}
+
+@keyframes puff-in-center {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
 }
 
 .column {
