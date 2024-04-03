@@ -7,19 +7,28 @@ p {
   animation: puff-in-center 1.0s ease-in-out 1.5s both;
 }
 
-.image1 {
+.image2,
+.image3 {
   display: inline;
   margin-left: auto;
   margin-right: auto;
-  animation: puff-in-center 1.0s ease-in-out 1.5s both;
   transition: transform 0.3s ease;
 }
 
-.image1:hover {
+.image2 {
+  animation: puff-in-center 1.0s ease-in-out 1.5s both;
+}
+
+.image3 {
+  animation: puff-in-center 1.0s ease-in-out 2.5s both;
+}
+
+.image2:hover,
+.image3:hover {
   transform: scale(1.11);
 }
 
-.image2 {
+.image1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
